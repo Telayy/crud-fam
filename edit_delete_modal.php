@@ -9,7 +9,7 @@
             <div class="modal-body">
 			<div class="container-fluid">
 			<form method="POST" action="edit.php">
-				<input type="hidden" class="form-control" name="id" value="<?php echo $row['fam_id']; ?>">
+				<input type="hidden" class="form-control" name="fam_id" value="<?php echo $row['fam_id']; ?>">
 				<div class="row form-group">
 					<div class="col-sm-2">
 						<label class="control-label modal-label">Product Family</label>
@@ -46,7 +46,7 @@
 			</div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-                <a href="delete.php?id=<?php echo $row['fam_id']; ?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
+                <a href="delete.php?fam_id=<?php echo $row['fam_id']; ?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Yes</a>
             </div>
         </div>
     </div>
