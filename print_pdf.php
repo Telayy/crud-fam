@@ -9,7 +9,7 @@
 		while($row = $query->fetch_assoc()){
 			$contents .= "
 			<tr>
-				<td>".$row['id']."</td>
+				<td>".$row['fam_id']."</td>
 				<td>".$row['family']."</td>
 			</tr>
 			";
@@ -37,11 +37,11 @@
     $content = '';
     $content .= '
       	<h2 align="center">Product Family List</h2>
-      	<h4>Product Family</h4>
+      	<h4></h4>
       	<table border="1" cellspacing="0" cellpadding="3">
            <tr>
         <th width="5%">ID</th>
-				<th width="20%">Product Family</th>
+				<th width="30%">Product Family</th>
            </tr>
       ';
 			 

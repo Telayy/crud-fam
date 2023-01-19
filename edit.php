@@ -3,9 +3,9 @@
 	include_once('connection.php');
 
 	if(isset($_POST['edit'])){
-		$cat_id = $_POST['cat_id'];
+		$fam_id = $_POST['fam_id'];
 		$family = $_POST['product_family'];
-		$sql = "UPDATE fam SET family = '$family' WHERE cat_id = '$cat_id'";
+		$sql = "UPDATE fam SET family = '$family' WHERE fam_id = '$fam_id'";
 
 		//use for MySQLi OOP
 		if($conn->query($sql)){

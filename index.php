@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>CRUD Operation using PHP/MySQLi With DataTable and PDF Generator using TCPDF</title>
+	<title>Product Family Management</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="datatable/dataTable.bootstrap.min.css">
 	<style>
@@ -24,7 +24,7 @@
 
 <body>
 <div class="container">
-	<h1 class="page-header text-center"> </h1>
+	<h1 class="page-header text-center">Product Family Management</h1>
 
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
