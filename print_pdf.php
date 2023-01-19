@@ -41,7 +41,7 @@
       	<table border="1" cellspacing="0" cellpadding="3">
            <tr>
         <th width="5%">ID</th>
-				<th width="20%">Product Family</th>
+				<th width="30%">Product Family</th>
            </tr>
       ';
 			 
